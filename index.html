@@ -5,7 +5,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codar Admission Letter</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            text-decoration: none;
+        }
+
+        .main-wrapper {
+            background-image: url(./Acceptance\ Letter1.jpg);
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .logo {
+            padding-top: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+
+        .logo h1 {
+            text-align: right;
+        }
+
+        .padding {
+            padding: 0 4em;
+        }
+
+        .address {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+        }
+
+        .address .paragraph {
+            opacity: 0;
+        }
+
+        .addresse {
+            margin-top: 2em;
+        }
+
+        .letter {
+            margin-top: 2em;
+        }
+
+        .letter h1 {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .letter p {
+            font-size: 1.5rem;
+            line-height: 2.5;
+        }
+
+        .signature {
+            margin-top: 5em;
+            line-height: 2;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .logo {
+                /* background-color: yellow; */
+            }
+
+            .address {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .padding {
+                padding: 2em 2em 1em;
+            }
+
+            .address p,
+            .address2 p {
+                font-size: small;
+            }
+
+            .letter h1 {
+                font-size: 1.5rem;
+            }
+
+            .letter p {
+                font-size: 1rem;
+                font-weight: 500;
+            }
+
+            .addresse {
+                font-size: 1rem;
+            }
+
+            .signature {
+                margin-top: 2em;
+            }
+
+            .signature h2 {
+                font-size: 1rem;
+            }
+
+            .logo h1 {
+                font-size: 1.2rem;
+            }
+        }
+
+
+        @media only screen and (max-width: 414px) {
+            .padding {
+                padding: 2em 1em 1em;
+            }
+
+            .address {
+                grid-template-columns: 2fr 1fr;
+            }
+
+            .address p,
+            .address2 p {
+                font-size: 0.5rem;
+            }
+
+            .addresse {
+                font-size: 0.7rem;
+            }
+
+            .letter h1 {
+                font-size: 1rem;
+            }
+
+            .letter p {
+                font-size: 0.6rem;
+                font-weight: 500;
+            }
+
+            .signature h2 {
+                font-size: 0.6rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -39,17 +187,17 @@
             <div class="letter">
                 <h1 class="">ADMISSION LETTER</h1>
                 <p>Congratulations! We are pleased to inform you that you have been admitted to
-                Codar Tech Institute for the Cybersecurity program.</p>
+                    Codar Tech Institute for the Cybersecurity program.</p>
                 <p>Your classes will be held on Mondays and Wednesdays, and the program will run
-                for a duration of 6 months.</p>
+                    for a duration of 6 months.</p>
                 <p>We are excited to welcome you to our community and look forward to supporting
-                you in your educational journey.</p>
+                    you in your educational journey.</p>
                 <p>Best regards,</p>
 
                 <div class="signature">
                     <h2>Michael Onafowokan</h2>
                     <h2>Program and Community Manager <br>
-                    Codar Tech Institute</h2>
+                        Codar Tech Institute</h2>
                 </div>
             </div>
         </div>
