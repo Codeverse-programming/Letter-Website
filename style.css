@@ -76,9 +76,9 @@ table{
         /* background-color: yellow; */
     }
 
-    .address {
+    /* .address {
         grid-template-columns: 1fr 1fr;
-    }
+    } */
 
     .padding {
         padding: 2em 2em 1em;
@@ -121,9 +121,9 @@ table{
         padding: 2em 1em 1em;
     }
 
-    .address {
+    /* .address {
         grid-template-columns: 2fr 1fr;
-    }
+    } */
 
     .address p,
     .address2 p {
